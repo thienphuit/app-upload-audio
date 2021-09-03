@@ -24,9 +24,7 @@ const HomeScreen = () => {
 
     fetchMarketData()
   }, [])
-  console.log('============================')
-  console.log('dataa', data[0])
-  console.log('============================')
+
   return (
     <SafeAreaView style={{ flex: 1, paddingHorizontal: 24 }}> 
       <View>
